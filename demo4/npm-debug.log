@@ -1,0 +1,120 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install', 'underscore' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.32
+4 verbose cache add [ 'underscore', null ]
+5 verbose cache add name=undefined spec="underscore" args=["underscore",null]
+6 verbose parsed url { protocol: null,
+6 verbose parsed url   slashes: null,
+6 verbose parsed url   auth: null,
+6 verbose parsed url   host: null,
+6 verbose parsed url   port: null,
+6 verbose parsed url   hostname: null,
+6 verbose parsed url   hash: null,
+6 verbose parsed url   search: null,
+6 verbose parsed url   query: null,
+6 verbose parsed url   pathname: 'underscore',
+6 verbose parsed url   path: 'underscore',
+6 verbose parsed url   href: 'underscore' }
+7 silly lockFile 64bc6893-underscore underscore
+8 verbose lock underscore /Users/ankit/.npm/64bc6893-underscore.lock
+9 silly lockFile 64bc6893-underscore underscore
+10 silly lockFile 64bc6893-underscore underscore
+11 verbose addNamed [ 'underscore', '' ]
+12 verbose addNamed [ null, '*' ]
+13 silly lockFile 7629b758-underscore underscore@
+14 verbose lock underscore@ /Users/ankit/.npm/7629b758-underscore.lock
+15 silly addNameRange { name: 'underscore', range: '*', hasData: false }
+16 verbose request where is /underscore
+17 verbose request registry https://registry.npmjs.org/
+18 verbose request id 6fa53883739a8e92
+19 verbose url raw /underscore
+20 verbose url resolving [ 'https://registry.npmjs.org/', './underscore' ]
+21 verbose url resolved https://registry.npmjs.org/underscore
+22 verbose request where is https://registry.npmjs.org/underscore
+23 info trying registry request attempt 1 at 02:01:45
+24 verbose etag "BX2F3DVB5GESAJMW734X01W8W"
+25 http GET https://registry.npmjs.org/underscore
+26 http 200 https://registry.npmjs.org/underscore
+27 silly registry.get cb [ 200,
+27 silly registry.get   { date: 'Sun, 28 Sep 2014 20:31:46 GMT',
+27 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+27 silly registry.get     etag: '"DMX6Y7W8C06NSI8ITOH16AZ1U"',
+27 silly registry.get     'content-type': 'application/json',
+27 silly registry.get     'cache-control': 'max-age=60',
+27 silly registry.get     'content-length': '32858',
+27 silly registry.get     'accept-ranges': 'bytes',
+27 silly registry.get     via: '1.1 varnish',
+27 silly registry.get     age: '783',
+27 silly registry.get     'x-served-by': 'cache-syd1620-SYD',
+27 silly registry.get     'x-cache': 'HIT',
+27 silly registry.get     'x-cache-hits': '6',
+27 silly registry.get     'x-timer': 'S1411936306.895044,VS0,VE0',
+27 silly registry.get     vary: 'Accept',
+27 silly registry.get     'keep-alive': 'timeout=10, max=50',
+27 silly registry.get     connection: 'Keep-Alive' } ]
+28 silly addNameRange number 2 { name: 'underscore', range: '*', hasData: true }
+29 silly addNameRange versions [ 'underscore',
+29 silly addNameRange   [ '1.0.3',
+29 silly addNameRange     '1.0.4',
+29 silly addNameRange     '1.1.0',
+29 silly addNameRange     '1.1.1',
+29 silly addNameRange     '1.1.2',
+29 silly addNameRange     '1.1.3',
+29 silly addNameRange     '1.1.4',
+29 silly addNameRange     '1.1.5',
+29 silly addNameRange     '1.1.6',
+29 silly addNameRange     '1.1.7',
+29 silly addNameRange     '1.2.0',
+29 silly addNameRange     '1.2.1',
+29 silly addNameRange     '1.2.2',
+29 silly addNameRange     '1.2.3',
+29 silly addNameRange     '1.2.4',
+29 silly addNameRange     '1.3.0',
+29 silly addNameRange     '1.3.1',
+29 silly addNameRange     '1.3.2',
+29 silly addNameRange     '1.3.3',
+29 silly addNameRange     '1.4.0',
+29 silly addNameRange     '1.4.1',
+29 silly addNameRange     '1.4.2',
+29 silly addNameRange     '1.4.3',
+29 silly addNameRange     '1.4.4',
+29 silly addNameRange     '1.5.0',
+29 silly addNameRange     '1.5.1',
+29 silly addNameRange     '1.5.2',
+29 silly addNameRange     '1.6.0',
+29 silly addNameRange     '1.7.0' ] ]
+30 verbose addNamed [ 'underscore', '1.7.0' ]
+31 verbose addNamed [ '1.7.0', '1.7.0' ]
+32 silly lockFile 900da168-underscore-1-7-0 underscore@1.7.0
+33 verbose lock underscore@1.7.0 /Users/ankit/.npm/900da168-underscore-1-7-0.lock
+34 silly lockFile 0bc9860b--underscore-underscore-1-7-0-tgz https://registry.npmjs.org/underscore/-/underscore-1.7.0.tgz
+35 verbose lock https://registry.npmjs.org/underscore/-/underscore-1.7.0.tgz /Users/ankit/.npm/0bc9860b--underscore-underscore-1-7-0-tgz.lock
+36 verbose addRemoteTarball [ 'https://registry.npmjs.org/underscore/-/underscore-1.7.0.tgz',
+36 verbose addRemoteTarball   '6bbaf0877500d36be34ecaa584e0db9fef035209' ]
+37 info retry fetch attempt 1 at 02:01:47
+38 verbose fetch to= /var/folders/7t/fn6hjvdx3_z1gvntmw2hx3nr0000gp/T/npm-7484-s9eoY378/registry.npmjs.org/underscore/-/underscore-1.7.0.tgz
+39 http GET https://registry.npmjs.org/underscore/-/underscore-1.7.0.tgz
+40 http 200 https://registry.npmjs.org/underscore/-/underscore-1.7.0.tgz
+41 silly lockFile 0bc9860b--underscore-underscore-1-7-0-tgz https://registry.npmjs.org/underscore/-/underscore-1.7.0.tgz
+42 silly lockFile 0bc9860b--underscore-underscore-1-7-0-tgz https://registry.npmjs.org/underscore/-/underscore-1.7.0.tgz
+43 silly lockFile 900da168-underscore-1-7-0 underscore@1.7.0
+44 silly lockFile 900da168-underscore-1-7-0 underscore@1.7.0
+45 silly lockFile 7629b758-underscore underscore@
+46 silly lockFile 7629b758-underscore underscore@
+47 error Error: EACCES, mkdir '/Users/ankit/.npm/underscore/1.7.0'
+47 error  { [Error: EACCES, mkdir '/Users/ankit/.npm/underscore/1.7.0']
+47 error   errno: 3,
+47 error   code: 'EACCES',
+47 error   path: '/Users/ankit/.npm/underscore/1.7.0' }
+48 error Please try running this command again as root/Administrator.
+49 error System Darwin 12.3.0
+50 error command "node" "/usr/local/bin/npm" "install" "underscore"
+51 error cwd /Users/ankit/Desktop/NodeJS/NodeJS/demo4
+52 error node -v v0.10.32
+53 error npm -v 1.4.28
+54 error path /Users/ankit/.npm/underscore/1.7.0
+55 error code EACCES
+56 error errno 3
+57 error stack Error: EACCES, mkdir '/Users/ankit/.npm/underscore/1.7.0'
+58 verbose exit [ 3, true ]
